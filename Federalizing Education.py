@@ -30,17 +30,17 @@ from IPython.core.getipython import get_ipython
 
 ## We now need to load in our data 
 # Load Per-Pupil Expenditure data
-ppe_data = pd.read_excel("/Users/kolbedumas/Documents/Python/Federalizing Education/PPE2019.xlsx")
+ppe_data = pd.read_excel("/Federalizing-Education-Analysis/Federalizing Education/PPE2019.xlsx")
 
 # Load Regional Price Parities data
-rpp_data = pd.read_csv("/Users/kolbedumas/Documents/Python/Federalizing Education/COLI2019.csv", skiprows=range(1, 5), delimiter='\t')  # where x is the line number to start reading data from
+rpp_data = pd.read_csv("/Federalizing-Education-Analysis/Federalizing Education/COLI2019.csv", skiprows=range(1, 5), delimiter='\t')  # where x is the line number to start reading data from
 
 
 # The test score data is broken up into four parts, lets load it then clean it up
-math_ethnicity_data = pd.read_excel("/Users/kolbedumas/Documents/Python/Federalizing Education/MathRace2019.Xls", skiprows=8)
-math_lunch_data = pd.read_excel("/Users/kolbedumas/Documents/Python/Federalizing Education/MathLunch2019.Xls", skiprows=8)
-reading_ethnicity_data = pd.read_excel("/Users/kolbedumas/Documents/Python/Federalizing Education/ReadRace2019.Xls", skiprows=8)
-reading_lunch_data = pd.read_excel("/Users/kolbedumas/Documents/Python/Federalizing Education/ReadLunch2019.Xls", skiprows=8)
+math_ethnicity_data = pd.read_excel("/Federalizing-Education-Analysis/Federalizing Education/MathRace2019.Xls", skiprows=8)
+math_lunch_data = pd.read_excel("/Federalizing-Education-Analysis/Federalizing Education/MathLunch2019.Xls", skiprows=8)
+reading_ethnicity_data = pd.read_excel("/Federalizing-Education-Analysis/Federalizing Education/ReadRace2019.Xls", skiprows=8)
+reading_lunch_data = pd.read_excel("/Federalizing-Education-Analysis/Federalizing Education/ReadLunch2019.Xls", skiprows=8)
 
 # Adding categorical variables to the data frames to show if math or reading and if based on ethnicity or lunch status
 math_ethnicity_data['Subject'] = 'Math'
@@ -479,7 +479,7 @@ plt.ylabel('Scores')
 
 
 # Load the shapefile for U.S. states. For demonstration, I am using Geopandas' built-in dataset
-filepath = "/Users/kolbedumas/Documents/Python/Federalizing Education/ne_110m_admin_1_states_provinces"
+filepath = "/Federalizing-Education-Analysis/Federalizing Education/ne_110m_admin_1_states_provinces"
 gdf = gpd.read_file(filepath)
 
 # Exclude Alaska and Hawaii
