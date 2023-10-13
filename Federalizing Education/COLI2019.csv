@@ -1,0 +1,59 @@
+SARPP Regional price parities by state
+SARPP Regional price parities by state
+State or DC
+GeoFips,GeoName,2019
+00000,United States,100.000
+01000,Alabama,88.288
+02000,Alaska,102.820
+04000,Arizona,97.847
+05000,Arkansas,87.720
+06000,California,110.989
+08000,Colorado,102.419
+09000,Connecticut,103.721
+10000,Delaware,98.779
+11000,District of Columbia,109.546
+12000,Florida,99.843
+13000,Georgia,94.313
+15000,Hawaii,111.634
+16000,Idaho,92.475
+17000,Illinois,99.548
+18000,Indiana,92.820
+19000,Iowa,91.694
+20000,Kansas,92.771
+21000,Kentucky,89.529
+22000,Louisiana,91.210
+23000,Maine,94.860
+24000,Maryland,105.159
+25000,Massachusetts,107.369
+26000,Michigan,95.288
+27000,Minnesota,98.994
+28000,Mississippi,86.490
+29000,Missouri,92.561
+30000,Montana,94.199
+31000,Nebraska,92.382
+32000,Nevada,98.826
+33000,New Hampshire,104.061
+34000,New Jersey,111.239
+35000,New Mexico,92.743
+36000,New York,109.583
+37000,North Carolina,91.907
+38000,North Dakota,93.366
+39000,Ohio,93.280
+40000,Oklahoma,89.573
+41000,Oregon,103.924
+42000,Pennsylvania,98.078
+44000,Rhode Island,102.408
+45000,South Carolina,91.572
+46000,South Dakota,91.863
+47000,Tennessee,91.214
+48000,Texas,98.528
+49000,Utah,97.125
+50000,Vermont,99.456
+51000,Virginia,100.152
+53000,Washington,108.036
+54000,West Virginia,88.323
+55000,Wisconsin,94.492
+56000,Wyoming,93.823
+
+Legend/Footnotes
+"  Last updated: December 15, 2022-- new statistics for 2021; revised statistics for 2017-2020."
